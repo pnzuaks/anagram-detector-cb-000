@@ -11,8 +11,9 @@ class Anagram
     comparison = word.split("").sort
     ana_ray.each {|i| i.split("").sort
       if i === comparison
-        i.p
+        result.push(i)
     }
+    result
   end
   
 end
