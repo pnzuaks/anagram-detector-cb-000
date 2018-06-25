@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(ana_ray)
-    ana_ray.each {}
+    ana_ray.each {i}
   end
   
 end
