@@ -7,8 +7,12 @@ class Anagram
   end
   
   def match(ana_ray)
-    comparison = word.split("")
-    ana_ray.each {|i| i.split("")}
+    result = []
+    comparison = word.split("").sort
+    ana_ray.each {|i| i.split("").sort
+      if i === comparison
+        i.p
+    }
   end
   
 end
