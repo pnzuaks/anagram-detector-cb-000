@@ -7,7 +7,8 @@ class Anagram
   end
   
   def match(ana_ray)
-    ana_ray.each {i}
+    comparison = word.split("")
+    ana_ray.each {|i| i.split("")}
   end
   
 end
