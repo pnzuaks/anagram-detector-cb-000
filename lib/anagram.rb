@@ -12,6 +12,7 @@ class Anagram
     ana_ray.each {|i| i.split("").sort
       if i === comparison
         result.push(i)
+      end
     }
     result
   end
