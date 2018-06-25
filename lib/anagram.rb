@@ -6,7 +6,7 @@ class Anagram
     @word = word
   end
   
-  def polsk
+  def match(ana_ray)
     
   end
   
