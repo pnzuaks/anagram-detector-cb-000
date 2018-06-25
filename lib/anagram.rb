@@ -9,8 +9,8 @@ class Anagram
   def match(ana_ray)
     result = []
     comparison = word.split("").sort
-    ana_ray.each {|i| i.split("").sort
-      if i === comparison
+    ana_ray.each {|i|
+      if i.split("").sort === comparison
         result.push(i)
       end
     }
